@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    float x, y, media, soma;
+    printf("Digite o valor de X: ");
+    scanf("%f", &x);
+    printf("Digite o valor de Y: ");
+    scanf("%f", &y);
+    soma = x+y;
+    media = (x+y)/2;
+    
+    printf("A soma é: %.2f", soma);
+    printf("\nA media é: %.2f", media);
+    return 0;
+}
